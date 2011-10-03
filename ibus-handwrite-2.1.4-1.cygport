@@ -1,0 +1,9 @@
+inherit gnome2
+
+DESCRIPTION="IBus handwriting recognition input engine"
+HOMEPAGE="http://code.google.com/p/ibus-handwrite"
+SRC_URI="http://ibus-handwrite.googlecode.com/files/${P}.tar.bz2"
+
+DISTCLEANFILES="src/*.xml.in"
+
+CYGCONF_ARGS="--libexecdir=/usr/lib/ibus --with-zinnia-tomoe=/usr/lib/zinnia/model/tomoe"
