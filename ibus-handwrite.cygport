@@ -1,6 +1,11 @@
 inherit gnome2
 
-DESCRIPTION="IBus handwriting recognition input engine"
+NAME="ibus-handwrite"
+VERSION=2.1.4
+RELEASE=2
+CATEGORY="X11"
+SUMMARY="IBus Chinese/Japanese handwriting input method engine"
+REQUIRES="ibus zinnia-tomoe"
 HOMEPAGE="http://code.google.com/p/ibus-handwrite"
 SRC_URI="http://ibus-handwrite.googlecode.com/files/${P}.tar.bz2"
 

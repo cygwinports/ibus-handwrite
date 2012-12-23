@@ -1,5 +1,0 @@
-category: X11
-requires: ibus libGL1 libglib2.0_0 libgtk2.0_0 libgtkglext1.0_0 libibus1.0_0 libintl8 libzinnia0 zinnia-tomoe
-sdesc: "IBus Chinese/Japanese handwriting input method engine"
-ldesc: "ibus-skk is an implementation of the SKK (Simple Kana-Kanji) input
-method on the IBus input method framework."
