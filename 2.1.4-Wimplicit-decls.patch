@@ -1,0 +1,20 @@
+--- origsrc/ibus-handwrite-2.1.4/src/handrecog_lucykila.c	2011-01-26 18:24:11.000000000 -0600
++++ src/ibus-handwrite-2.1.4/src/handrecog_lucykila.c	2013-11-01 04:42:56.826481800 -0500
+@@ -15,6 +15,7 @@
+ #include <sys/mman.h>
+ #include <math.h>
+ #include <string.h>
++#include <stdlib.h>
+ #include <glib.h>
+ 
+ #include "engine.h"
+--- origsrc/ibus-handwrite-2.1.4/src/main.c	2011-01-25 17:55:35.000000000 -0600
++++ src/ibus-handwrite-2.1.4/src/main.c	2013-11-01 04:37:35.144082700 -0500
+@@ -3,6 +3,7 @@
+ #include <unistd.h>
+ #include <stdio.h>
+ #include <stdlib.h>
++#include <string.h>
+ #include <ibus.h>
+ #include <locale.h>
+ #include <gtk/gtkgl.h>
